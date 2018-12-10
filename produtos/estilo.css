@@ -1,0 +1,167 @@
+p{
+  color: #000000;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+li{
+  color: #000000;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.label-nome-do-produto{
+  color: #5e9ca0;
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.label-criterios-de-aceitacao{
+  color:  #2e6c80;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+table, th, td {
+    border: 0;
+}
+
+
+.stamp {
+  transform: rotate(12deg);
+	color: #555;
+	font-size: 3rem;
+	font-weight: 700;
+	border: 0.25rem solid #555;
+	display: inline-block;
+	padding: 0.25rem 1rem;
+	text-transform: uppercase;
+	border-radius: 1rem;
+	font-family: 'Courier';
+	-webkit-mask-image: url('imagens/grunge.png');
+  -webkit-mask-size: 944px 604px;
+  mix-blend-mode: multiply;
+}
+
+.is-nope {
+  color: #D23;
+  border: 0.5rem double #D23;
+  transform: rotate(3deg);
+	-webkit-mask-position: 2rem 3rem;
+  font-size: 2rem;  
+}
+
+.is-approved {
+	color: #0A9928;
+	border: 0.5rem solid #0A9928;
+	-webkit-mask-position: 13rem 6rem;
+	transform: rotate(-14deg);
+  border-radius: 0;
+} 
+
+.is-draft {
+	color: #C4C4C4;
+	border: 1rem double #C4C4C4;
+	transform: rotate(-5deg);
+  font-size: 1.5rem;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  border-radius: 0;
+  padding: 0.5rem;
+} 
+
+
+/* Table 1 Style */
+table.table1{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+.table1 thead th{
+    padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px #2e6c80;
+    border:1px solid #2e6c80;
+    border-bottom:3px solid #2e6c80;
+    background-color:#5e9ca0;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(46,108,128)),
+        color-stop(0.51, rgb(94,156,160)),
+        color-stop(0.87, rgb(196,196,196))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(46,108,128) 2%,
+        rgb(94,156,160) 51%,
+        rgb(196,196,196) 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.table1 thead th:empty{
+    background:transparent;
+    border:none;
+}
+.table1 tbody th{
+    color:#fff;
+    text-shadow:1px 1px 1px #2e6c80;
+    background-color:#5e9ca0;
+    border:1px solid #2e6c80;
+    border-right:3px solid #5e9ca0;
+    padding:0px 10px;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        color-stop(0.02, rgb(46,108,128)),
+        color-stop(0.51, rgb(94,156,160)),
+        color-stop(0.87, rgb(196,196,196))
+        );
+    background: -moz-linear-gradient(
+        left bottom,
+        rgb(46,108,128) 2%,
+        rgb(94,156,160) 51%,
+        rgb(196,196,196) 87%
+        );
+    -moz-border-radius:5px 0px 0px 5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.table1 tfoot td{
+    color: #9CD009;
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    text-shadow:1px 1px 1px #444;
+}
+.table1 tfoot th{
+    color:#666;
+}
+.table1 tbody td{
+    padding:10px;
+    text-align:center;
+    background-color:#5e9ca04d;
+    border: 2px solid #E7EFE0;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+.table1 tbody span.check::before{
+    content : url(../images/check0.png)
+}
